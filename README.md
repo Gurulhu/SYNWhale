@@ -65,14 +65,17 @@ The roadmap described bellow is drafted roughly by urgency, so point orders may 
 * Harden the jumpserver
 * Configure squid
 * Mount Splunk logs outside the image
+
 //Glue the pieces/integrate
 * Fix the ntp/timezone across containers
 * Configure the pihole DHCP
 * Serve proxy and dns configurations via DHCP
 * Integrate fail2ban banlist with pihole's, squid's and snort's 
+
 //Improvements and enrichments
 * Create basic splunk dashboards for provided tools
 * Create custom rules
+
 //Long-run possibilities and evil plans
 * Unify the data gathered into a custom banlist
 * Create custom rules to be shared
